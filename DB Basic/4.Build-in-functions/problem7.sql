@@ -1,0 +1,4 @@
+SELECT *
+FROM Towns AS T
+WHERE (LEFT(T.Name, 1) LIKE '[^R, B, D]')
+ORDER BY T.Name ASC
